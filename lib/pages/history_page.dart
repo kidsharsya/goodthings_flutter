@@ -28,7 +28,7 @@ class _HistoryPageState extends State<HistoryPage> {
     // Filter history berdasarkan status
     _history = data
         .where((goodThing) =>
-            DateTime.now().difference(goodThing.createdAt).inSeconds >= 12)
+            DateTime.now().difference(goodThing.createdAt).inHours >= 12)
         .toList();
 
     setState(() {});

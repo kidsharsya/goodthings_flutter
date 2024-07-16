@@ -42,7 +42,7 @@ class _ChallengePageState extends State<ChallengePage> {
 
     final now = DateTime.now();
     _goodThings = data.where((goodThing) {
-      return now.difference(goodThing.createdAt).inSeconds < 12;
+      return now.difference(goodThing.createdAt).inHours < 12;
     }).toList();
 
     setState(() {
@@ -60,7 +60,7 @@ class _ChallengePageState extends State<ChallengePage> {
   String _getRemainingTime(model.GoodThing goodThing) {
     final now = DateTime.now();
     final duration =
-        goodThing.createdAt.add(Duration(seconds: 12)).difference(now);
+        goodThing.createdAt.add(Duration(hours: 12)).difference(now);
 
     if (duration.isNegative) {
       return "Habis";
