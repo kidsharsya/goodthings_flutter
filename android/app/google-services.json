@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "307721831422",
+    "project_id": "project-tekmob",
+    "storage_bucket": "project-tekmob.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307721831422:android:876da12713a7f6d115f6af",
+        "android_client_info": {
+          "package_name": "com.example.goodthings_app_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5DdQQRDRCDLSbs5k7tfbkHb95h_fXn7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307721831422:android:ba3e5bc881a35a0215f6af",
+        "android_client_info": {
+          "package_name": "com.tekmob.goodthings"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5DdQQRDRCDLSbs5k7tfbkHb95h_fXn7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
